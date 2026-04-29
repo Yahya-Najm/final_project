@@ -1,0 +1,23 @@
+# Initial movie dataset with aggregated rating data (sum + count for O(1) avg update)
+initial_movies = {
+    1:  {"id": 1,  "title": "The Matrix",               "genres": ["Sci-Fi", "Action"],                    "sum_rating": 480, "count": 100},
+    2:  {"id": 2,  "title": "Inception",                 "genres": ["Sci-Fi", "Action", "Thriller"],        "sum_rating": 450, "count": 95},
+    3:  {"id": 3,  "title": "Interstellar",              "genres": ["Sci-Fi", "Drama"],                     "sum_rating": 470, "count": 100},
+    4:  {"id": 4,  "title": "The Godfather",             "genres": ["Crime", "Drama"],                      "sum_rating": 490, "count": 100},
+    5:  {"id": 5,  "title": "Pulp Fiction",              "genres": ["Crime", "Thriller"],                   "sum_rating": 430, "count": 90},
+    6:  {"id": 6,  "title": "The Dark Knight",           "genres": ["Action", "Crime", "Drama"],            "sum_rating": 485, "count": 100},
+    7:  {"id": 7,  "title": "Schindler's List",          "genres": ["Drama", "History"],                    "sum_rating": 460, "count": 95},
+    8:  {"id": 8,  "title": "Forrest Gump",              "genres": ["Drama", "Romance"],                    "sum_rating": 440, "count": 100},
+    9:  {"id": 9,  "title": "The Shawshank Redemption",  "genres": ["Drama"],                               "sum_rating": 495, "count": 100},
+    10: {"id": 10, "title": "Gladiator",                 "genres": ["Action", "Adventure", "Drama"],        "sum_rating": 420, "count": 90},
+    11: {"id": 11, "title": "Alien",                     "genres": ["Sci-Fi", "Horror"],                    "sum_rating": 380, "count": 85},
+    12: {"id": 12, "title": "The Silence of the Lambs",  "genres": ["Crime", "Horror", "Thriller"],         "sum_rating": 410, "count": 90},
+    13: {"id": 13, "title": "Seven",                     "genres": ["Crime", "Mystery", "Thriller"],        "sum_rating": 390, "count": 85},
+    14: {"id": 14, "title": "The Prestige",              "genres": ["Drama", "Mystery", "Sci-Fi"],          "sum_rating": 445, "count": 95},
+    15: {"id": 15, "title": "Memento",                   "genres": ["Mystery", "Thriller"],                 "sum_rating": 405, "count": 90},
+    16: {"id": 16, "title": "The Lion King",             "genres": ["Animation", "Adventure", "Drama"],     "sum_rating": 475, "count": 100},
+    17: {"id": 17, "title": "Spirited Away",             "genres": ["Animation", "Adventure", "Fantasy"],   "sum_rating": 480, "count": 100},
+    18: {"id": 18, "title": "Back to the Future",        "genres": ["Sci-Fi", "Adventure", "Comedy"],       "sum_rating": 455, "count": 100},
+    19: {"id": 19, "title": "Blade Runner 2049",         "genres": ["Sci-Fi", "Drama"],                     "sum_rating": 340, "count": 80},
+    20: {"id": 20, "title": "Parasite",                  "genres": ["Drama", "Thriller", "Comedy"],         "sum_rating": 465, "count": 100},
+}
